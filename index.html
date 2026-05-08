@@ -6,7 +6,7 @@
   <title>Houston Brethren Assembly | Brethren Church in Pearland, TX</title>
   <!-- Technical SEO: canonical URL, crawl directives, local discovery, and social previews -->
   <meta name="description" content="Houston Brethren Assembly in Pearland, TX: a community of believers gathering for worship, fellowship, Scripture, Breaking of Bread, and Bible study.">
-  <meta name="keywords" content="Houston Brethren Assembly, Brethren church Houston, Brethren assembly Pearland, Plymouth Brethren Houston, Kerala Brethren Houston, Malayalam Bible Study Houston, English Bible Study Pearland, Breaking of Bread Houston, Christian fellowship Pearland, Bible believing church Pearland TX, New Testament Christianity Houston">
+  <meta name="keywords" content="Houston Brethren Assembly, Brethren church Houston, Brethren assembly Pearland, Plymouth Brethren Houston, Kerala Brethren Houston, Malayalam Bible Study Houston, English Bible Study Pearland, Breaking of Bread Houston, Christian fellowship Pearland, Bible believing church Pearland TX, New Testament Christianity Houston, Gospel Missions of India, GMI Houston, India missions Pearland, Christian missions event Houston">
   <meta name="author" content="Houston Brethren Assembly">
   <meta name="publisher" content="Houston Brethren Assembly">
   <meta name="copyright" content="Houston Brethren Assembly">
@@ -46,13 +46,13 @@
   <meta property="og:title" content="Houston Brethren Assembly | Brethren Church in Pearland, TX">
   <meta property="og:description" content="Houston Brethren Assembly in Pearland, TX: a community of believers gathering for worship, fellowship, Scripture, Breaking of Bread, and Bible study.">
   <meta property="og:url" content="https://houstonbrethrenassembly.com/">
-  <meta property="og:image" content="https://houstonbrethrenassembly.com/og-image.jpg">
-  <meta property="og:image:secure_url" content="https://houstonbrethrenassembly.com/og-image.jpg">
-  <meta property="og:image:type" content="image/jpeg">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="Houston Brethren Assembly location and Building 1 in Pearland, Texas">
-  <meta property="og:updated_time" content="2026-04-28T00:00:00-05:00">
+  <meta property="og:image" content="https://houstonbrethrenassembly.com/Preview.png">
+  <meta property="og:image:secure_url" content="https://houstonbrethrenassembly.com/Preview.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="2844">
+  <meta property="og:image:height" content="1539">
+  <meta property="og:image:alt" content="Houston Brethren Assembly — Brethren church in Pearland, Texas">
+  <meta property="og:updated_time" content="2026-05-08T00:00:00-05:00">
   <meta property="place:location:latitude" content="29.5578750035">
   <meta property="place:location:longitude" content="-95.4012650044">
   <meta property="business:contact_data:street_address" content="2880 Broadway Bend Dr., Building 1">
@@ -64,8 +64,8 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Houston Brethren Assembly | Brethren Church in Pearland, TX">
   <meta name="twitter:description" content="Houston Brethren Assembly in Pearland, TX: a community of believers gathering for worship, fellowship, Scripture, Breaking of Bread, and Bible study.">
-  <meta name="twitter:image" content="https://houstonbrethrenassembly.com/og-image.jpg">
-  <meta name="twitter:image:alt" content="Houston Brethren Assembly location and Building 1 in Pearland, Texas">
+  <meta name="twitter:image" content="https://houstonbrethrenassembly.com/Preview.png">
+  <meta name="twitter:image:alt" content="Houston Brethren Assembly — Brethren church in Pearland, Texas">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -751,6 +751,210 @@
       color: var(--text-muted);
       font-size: 0.95rem;
       line-height: 1.7;
+    }
+
+    /* Featured announcement (GMI — A Celebration of Service) */
+    .announcement-section {
+      background:
+        radial-gradient(ellipse 120% 80% at 50% 0%, rgba(232, 240, 247, 0.95) 0%, transparent 55%),
+        linear-gradient(180deg, var(--sapphire-pale) 0%, var(--bg) 45%, var(--emerald-pale) 100%);
+      padding-top: 4.5rem;
+      padding-bottom: 4.5rem;
+    }
+
+    .announcement-section .section-header {
+      margin-bottom: 2.75rem;
+    }
+
+    .announcement-card {
+      max-width: 1100px;
+      margin: 0 auto;
+      background: var(--surface);
+      border-radius: 20px;
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow-lg);
+      overflow: hidden;
+      position: relative;
+    }
+
+    .announcement-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 4px;
+      background: linear-gradient(90deg, var(--emerald), var(--gold), var(--sapphire));
+      z-index: 1;
+    }
+
+    .announcement-layout {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1.12fr);
+      gap: 0;
+      align-items: stretch;
+    }
+
+    .announcement-visual {
+      background: linear-gradient(165deg, rgba(232, 240, 247, 0.65) 0%, rgba(232, 245, 239, 0.4) 100%);
+      padding: 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-right: 1px solid var(--border);
+    }
+
+    .announcement-figure {
+      margin: 0;
+      max-width: 380px;
+      width: 100%;
+    }
+
+    .announcement-figure img {
+      display: block;
+      width: 100%;
+      height: auto;
+      border-radius: 14px;
+      border: 3px solid var(--surface);
+      box-shadow:
+        0 14px 40px rgba(15, 45, 69, 0.14),
+        0 6px 16px rgba(27, 107, 77, 0.1);
+    }
+
+    .announcement-figure figcaption {
+      margin-top: 1rem;
+      font-size: 0.82rem;
+      line-height: 1.55;
+      color: var(--text-muted);
+      text-align: center;
+      font-family: var(--font-sans);
+    }
+
+    .announcement-body {
+      padding: 2.25rem 2.5rem 2.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1.35rem;
+    }
+
+    .announcement-eyebrow {
+      font-family: var(--font-display);
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--sapphire);
+    }
+
+    .announcement-lead {
+      font-family: var(--font-serif);
+      font-size: 1.2rem;
+      line-height: 1.85;
+      color: var(--text-muted);
+      text-align: justify;
+    }
+
+    .announcement-venue {
+      background: linear-gradient(135deg, var(--sapphire-deep) 0%, var(--sapphire) 100%);
+      color: #fff;
+      padding: 1rem 1.35rem;
+      border-radius: 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+    }
+
+    .announcement-venue strong {
+      font-family: var(--font-display);
+      font-size: 0.78rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      font-weight: 600;
+      opacity: 0.92;
+    }
+
+    .announcement-venue span {
+      font-family: var(--font-serif);
+      font-size: 1.15rem;
+      font-weight: 600;
+    }
+
+    .announcement-venue--emerald {
+      background: linear-gradient(135deg, var(--emerald-deep) 0%, var(--emerald) 100%);
+    }
+
+    .announcement-note {
+      font-size: 0.92rem;
+      line-height: 1.65;
+      color: var(--text-muted);
+      padding: 1rem 1.15rem;
+      background: var(--emerald-pale);
+      border-radius: 12px;
+      border: 1px solid var(--border);
+    }
+
+    .announcement-note em {
+      font-family: var(--font-serif);
+      font-style: italic;
+      color: var(--emerald-deep);
+    }
+
+    .announcement-address {
+      font-size: 0.88rem;
+      line-height: 1.65;
+      color: var(--text-muted);
+      margin: 0;
+      font-style: normal;
+    }
+
+    .announcement-address-title {
+      display: block;
+      font-family: var(--font-display);
+      font-size: 0.72rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--text);
+      margin-bottom: 0.35rem;
+    }
+
+    .announcement-address a {
+      color: var(--emerald);
+      text-decoration: none;
+      font-weight: 500;
+      border-bottom: 1px solid rgba(27, 107, 77, 0.35);
+      transition: color 0.25s var(--ease), border-color 0.25s var(--ease);
+    }
+
+    .announcement-address a:hover {
+      color: var(--emerald-deep);
+      border-bottom-color: var(--emerald-deep);
+    }
+
+    .announcement-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.85rem;
+      align-items: center;
+      margin-top: 0.25rem;
+    }
+
+    .announcement-actions .btn-outline {
+      border-color: rgba(30, 75, 110, 0.35);
+      color: var(--sapphire-deep);
+    }
+
+    .announcement-actions .btn-outline:hover {
+      border-color: var(--sapphire);
+      color: var(--sapphire);
+      background: var(--sapphire-pale);
+    }
+
+    .announcement-signoff {
+      font-size: 0.88rem;
+      color: var(--text-light);
+      font-family: var(--font-serif);
+      font-style: italic;
+      margin-top: 0.25rem;
     }
 
     /* Faith Section */
@@ -2045,6 +2249,21 @@
       .meeting-body {
         padding: 1.25rem 1.5rem;
       }
+
+      .announcement-layout {
+        grid-template-columns: 1fr;
+      }
+      .announcement-visual {
+        border-right: none;
+        border-bottom: 1px solid var(--border);
+        padding: 1.75rem 1.5rem;
+      }
+      .announcement-figure {
+        max-width: 340px;
+      }
+      .announcement-body {
+        padding: 1.75rem 1.5rem 2rem;
+      }
     }
 
     @media (max-width: 768px) {
@@ -2260,6 +2479,37 @@
       .welcome-grid { grid-template-columns: 1fr; }
       .mission-grid { grid-template-columns: 1fr; }
       .meetings-grid { grid-template-columns: 1fr; }
+
+      .announcement-section .container {
+        padding-left: 0;
+        padding-right: 0;
+      }
+      .announcement-card {
+        border-radius: 0;
+        box-shadow: 0 6px 18px rgba(15, 45, 69, 0.08);
+      }
+      .announcement-visual {
+        padding: 1.5rem 1.25rem;
+      }
+      .announcement-figure {
+        max-width: min(380px, 100%);
+      }
+      .announcement-body {
+        padding: 1.5rem 1.35rem 1.75rem;
+      }
+      .announcement-lead {
+        font-size: 1.05rem;
+        text-align: left;
+      }
+      .announcement-actions {
+        flex-direction: column;
+        align-items: stretch;
+      }
+      .announcement-actions .btn,
+      .announcement-actions .btn-outline {
+        width: 100%;
+        justify-content: center;
+      }
       .calendar-card { margin-top: 1.75rem; border-radius: 16px; }
       .calendar-header { padding: 1.5rem 1.5rem 1rem; }
       .calendar-embed { padding: 1rem 1rem 1.25rem; }
@@ -2421,7 +2671,8 @@
       "image": [
         "https://houstonbrethrenassembly.com/building1.jpeg",
         "https://houstonbrethrenassembly.com/location.jpeg",
-        "https://houstonbrethrenassembly.com/og-image.jpg"
+        "https://houstonbrethrenassembly.com/og-image.jpg",
+        "https://houstonbrethrenassembly.com/Announcements/GMI%20Meeting.jpeg"
       ],
       "logo": "https://houstonbrethrenassembly.com/apple-touch-icon.png",
       "address": {
@@ -2469,7 +2720,9 @@
         "Plymouth Brethren",
         "Kerala Brethren",
         "New Testament Christianity",
-        "Sola Scriptura"
+        "Sola Scriptura",
+        "Gospel Missions of India",
+        "Christian missions in India"
       ],
       "mainEntityOfPage": {
         "@id": "https://houstonbrethrenassembly.com/#webpage"
@@ -2498,10 +2751,13 @@
       "about": {
         "@id": "https://houstonbrethrenassembly.com/#church"
       },
+      "mentions": {
+        "@id": "https://houstonbrethrenassembly.com/#event-gmi-celebration-2026"
+      },
       "primaryImageOfPage": {
         "@id": "https://houstonbrethrenassembly.com/#primaryimage"
       },
-      "dateModified": "2026-04-28",
+      "dateModified": "2026-05-08",
       "keywords": [
         "Houston Brethren Assembly",
         "Brethren church Houston",
@@ -2513,8 +2769,65 @@
         "Breaking of Bread Houston",
         "Christian fellowship Pearland",
         "Bible believing church Pearland TX",
-        "New Testament Christianity Houston"
+        "New Testament Christianity Houston",
+        "Gospel Missions of India",
+        "GMI Houston",
+        "India missions Pearland",
+        "Christian missions event Houston"
       ]
+    },
+    {
+      "@type": "Event",
+      "@id": "https://houstonbrethrenassembly.com/#event-gmi-celebration-2026",
+      "name": "A Celebration of Service — Gospel Missions of India at Houston Brethren Assembly",
+      "description": "Gospel Missions of India (GMI) cordially invites you and your family to their annual presentation of the assembly work they have been involved in for the last 41 years. Dinner will be provided. Hosted at Houston Brethren Assembly (Building 2) in Pearland, Texas.",
+      "startDate": "2026-05-30T17:30:00-05:00",
+      "endDate": "2026-05-30T21:00:00-05:00",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "image": {
+        "@id": "https://houstonbrethrenassembly.com/#gmi-flyer-image"
+      },
+      "location": {
+        "@type": "Place",
+        "name": "Houston Brethren Assembly (Building 2)",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "2880 Broadway Bend Dr., Building 2",
+          "addressLocality": "Pearland",
+          "addressRegion": "TX",
+          "postalCode": "77584",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 29.5578750035,
+          "longitude": -95.4012650044
+        }
+      },
+      "organizer": {
+        "@type": "Organization",
+        "name": "Gospel Missions of India",
+        "alternateName": "GMI",
+        "url": "https://www.gospelmi.org/"
+      },
+      "isAccessibleForFree": true,
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "url": "https://houstonbrethrenassembly.com/#gmi-celebration"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://houstonbrethrenassembly.com/#gmi-flyer-image",
+      "url": "https://houstonbrethrenassembly.com/Announcements/GMI%20Meeting.jpeg",
+      "contentUrl": "https://houstonbrethrenassembly.com/Announcements/GMI%20Meeting.jpeg",
+      "width": 792,
+      "height": 1024,
+      "caption": "Invitation flyer: A Celebration of Service with Gospel Missions of India (GMI) at Houston Brethren Assembly, Pearland, TX — Saturday May 30, 2026 at 5:30 PM, Building 2"
     },
     {
       "@type": "ImageObject",
@@ -2636,6 +2949,56 @@
     <div class="scroll-hint">
       <span>Scroll</span>
       <i class="fas fa-chevron-down"></i>
+    </div>
+  </section>
+
+  <section id="gmi-celebration" class="announcement-section" aria-labelledby="gmi-celebration-heading">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-label">Upcoming at HBA</span>
+        <h3 id="gmi-celebration-heading">A Celebration of Service</h3>
+        <p>Gospel Missions of India (GMI) — annual presentation of God’s work in India, hosted at Houston Brethren Assembly</p>
+      </div>
+      <article class="announcement-card fade-in">
+        <div class="announcement-layout">
+          <div class="announcement-visual">
+            <figure class="announcement-figure">
+              <img
+                src="Announcements/GMI%20Meeting.jpeg"
+                width="792"
+                height="1024"
+                alt="Gospel Missions of India invitation: A Celebration of Service at Houston Brethren Assembly, Saturday May 30, 2026 at 5:30 PM, Building 2, Pearland, Texas. Flyer with India map graphic, worship silhouettes, and event details including dinner provided."
+                loading="lazy"
+                decoding="async"
+              >
+              <figcaption>GMI invitation: <cite>A Celebration of Service</cite> — Saturday, May 30, 2026 at Houston Brethren Assembly (Building 2).</figcaption>
+            </figure>
+          </div>
+          <div class="announcement-body">
+            <p class="announcement-eyebrow">Gospel Missions of India (GMI)</p>
+            <p class="announcement-lead">Gospel Missions of India (GMI) cordially invites you and your family to their annual presentation of the assembly work they have been involved in for the last <strong>41 years</strong>. We encourage you to bring others who may be interested in the work of God in India.</p>
+            <div class="announcement-venue">
+              <strong>Please join us</strong>
+              <span><time datetime="2026-05-30T17:30:00-05:00">Saturday, May 30, 2026</time> at 5:30 PM <span aria-hidden="true">(</span><abbr title="Central Time">CT</abbr><span aria-hidden="true">)</span></span>
+            </div>
+            <div class="announcement-venue announcement-venue--emerald">
+              <strong>Venue</strong>
+              <span>Houston Brethren Assembly (HBA) — Building 2</span>
+            </div>
+            <p class="announcement-note"><em>Dinner will be provided.</em> On behalf of GMI and the elders at HBA, we look forward to welcoming you.</p>
+            <address class="announcement-address">
+              <strong class="announcement-address-title">Address</strong>
+              Houston Brethren Assembly (Building 2), 2880 Broadway Bend Dr., Pearland, TX 77584 —
+              <a href="https://maps.google.com/?q=Houston+Brethren+Assembly+2880+Broadway+Bend+Dr+Building+2+Pearland+TX+77584" rel="noopener noreferrer">Open in Google Maps</a>
+            </address>
+            <div class="announcement-actions">
+              <a href="https://www.gospelmi.org/" class="btn" rel="noopener noreferrer"><span>Visit gospelmi.org</span> <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
+              <a href="#home" class="btn btn-outline"><span>Houston Brethren Assembly</span></a>
+            </div>
+            <p class="announcement-signoff">Learn more about GMI’s work in India and how assemblies partner in the gospel.</p>
+          </div>
+        </div>
+      </article>
     </div>
   </section>
 
