@@ -7,12 +7,8 @@ This package is built from the uploaded `index(1).html` and keeps the visible we
 Upload every file in this folder to the public root of `https://houstonbrethrenassembly.com/`:
 
 - `index.html`
-- `building1.jpeg`
-- `building1-640.jpeg`
-- `building1-1024.jpeg`
-- `location.jpeg`
-- `location-640.jpeg`
-- `og-image.jpg`
+- `Preview.png`
+- `Announcements/`
 - `favicon.svg`
 - `favicon-16x16.png`
 - `favicon-32x32.png`
@@ -56,6 +52,6 @@ If the final domain is different, replace `https://houstonbrethrenassembly.com/`
 4. Use Google Rich Results Test / Schema Markup Validator to verify structured data.
 5. Verify or update Google Business Profile and Bing Places using the exact same NAP:
    - Houston Brethren Assembly
-   - 2880 Broadway Bend Dr., Pearland, TX 77584 - Building 1
+   - Silvercrest Elementary, 3003 Southwyck Pkwy., Pearland, Texas 77584
    - hbabrethren@gmail.com
 6. Keep the same address, email, and service-time wording consistent anywhere the assembly is listed online.

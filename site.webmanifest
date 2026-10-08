@@ -31,11 +31,11 @@
   ],
   "screenshots": [
     {
-      "src": "/og-image.jpg",
-      "sizes": "1200x630",
-      "type": "image/jpeg",
+      "src": "/Preview.png",
+      "sizes": "2844x1539",
+      "type": "image/png",
       "form_factor": "wide",
-      "label": "Houston Brethren Assembly location"
+      "label": "Houston Brethren Assembly homepage"
     }
   ]
 }
